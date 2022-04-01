@@ -1,7 +1,7 @@
 import Foundation
 
 protocol AddAccount {
-    func add(AddAccountModel: AddAccountModel,  completion: @escaping (Result<AccountModel, Error>) -> void)
+    func add(AddAccountModel: AddAccountModel,  completion: @escaping (Result<AccountModel, Error>) -> Void)
 }
 
 struct AddAccountModel {

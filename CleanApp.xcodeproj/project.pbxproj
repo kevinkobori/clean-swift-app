@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		990BDDD727F67213002DA7B6 /* Data.docc in Sources */ = {isa = PBXBuildFile; fileRef = 990BDDD627F67213002DA7B6 /* Data.docc */; };
 		990BDDDD27F67213002DA7B6 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990BDDD327F67213002DA7B6 /* Data.framework */; };
-		990BDDE227F67213002DA7B6 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990BDDE127F67213002DA7B6 /* DataTests.swift */; };
+		990BDDE227F67213002DA7B6 /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990BDDE127F67213002DA7B6 /* RemoteAddAccountTests.swift */; };
 		990BDDEB27F6732F002DA7B6 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9999812827F5383700780D31 /* Domain.framework */; };
 		990BDDEC27F6732F002DA7B6 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9999812827F5383700780D31 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9999812C27F5383700780D31 /* Domain.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9999812B27F5383700780D31 /* Domain.docc */; };
@@ -52,7 +52,7 @@
 		990BDDD327F67213002DA7B6 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		990BDDD627F67213002DA7B6 /* Data.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Data.docc; sourceTree = "<group>"; };
 		990BDDDC27F67213002DA7B6 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		990BDDE127F67213002DA7B6 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		990BDDE127F67213002DA7B6 /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
 		9999812827F5383700780D31 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9999812B27F5383700780D31 /* Domain.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Domain.docc; sourceTree = "<group>"; };
 		9999814B27F5458E00780D31 /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		990BDDE027F67213002DA7B6 /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				990BDDE127F67213002DA7B6 /* DataTests.swift */,
+				990BDDE127F67213002DA7B6 /* RemoteAddAccountTests.swift */,
 			);
 			path = DataTests;
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990BDDE227F67213002DA7B6 /* DataTests.swift in Sources */,
+				990BDDE227F67213002DA7B6 /* RemoteAddAccountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
