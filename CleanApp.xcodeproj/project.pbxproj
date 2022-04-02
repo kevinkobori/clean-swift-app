@@ -95,9 +95,9 @@
 		990BDDD427F67213002DA7B6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				99C66F1F27F90A7300A637B2 /* Http */,
+				99C66F1E27F90A6600A637B2 /* UseCases */,
 				990BDDD627F67213002DA7B6 /* Data.docc */,
-				99C66F1527F9097B00A637B2 /* RemoteAddAccount.swift */,
-				99C66F1A27F90A0F00A637B2 /* HttpPostClient.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 		990BDDE027F67213002DA7B6 /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				990BDDE127F67213002DA7B6 /* RemoteAddAccountTests.swift */,
+				99C66F2027F90A8700A637B2 /* UseCases */,
 			);
 			path = DataTests;
 			sourceTree = "<group>";
@@ -141,12 +141,52 @@
 		9999812927F5383700780D31 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				99C66F2127F90AD400A637B2 /* UseCases */,
+				99C66F1D27F90A5200A637B2 /* Models */,
 				9999812B27F5383700780D31 /* Domain.docc */,
-				9999814B27F5458E00780D31 /* AddAccount.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		99C66F1D27F90A5200A637B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				9999814D27F5475300780D31 /* AccountModel.swift */,
 				99C66F1327F908D100A637B2 /* Model.swift */,
 			);
-			path = Domain;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99C66F1E27F90A6600A637B2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				99C66F1527F9097B00A637B2 /* RemoteAddAccount.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		99C66F1F27F90A7300A637B2 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				99C66F1A27F90A0F00A637B2 /* HttpPostClient.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		99C66F2027F90A8700A637B2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				990BDDE127F67213002DA7B6 /* RemoteAddAccountTests.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		99C66F2127F90AD400A637B2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				9999814B27F5458E00780D31 /* AddAccount.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
