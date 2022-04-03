@@ -12,6 +12,8 @@
 		990BDDE227F67213002DA7B6 /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990BDDE127F67213002DA7B6 /* RemoteAddAccountTests.swift */; };
 		990BDDEB27F6732F002DA7B6 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9999812827F5383700780D31 /* Domain.framework */; };
 		990BDDEC27F6732F002DA7B6 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9999812827F5383700780D31 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		994201B327F90F6900DBF342 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994201B227F90F6900DBF342 /* DomainError.swift */; };
+		994201B827F9115100DBF342 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994201B727F9115100DBF342 /* HttpError.swift */; };
 		9999812C27F5383700780D31 /* Domain.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9999812B27F5383700780D31 /* Domain.docc */; };
 		9999814C27F5458E00780D31 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9999814B27F5458E00780D31 /* AddAccount.swift */; };
 		9999814E27F5475300780D31 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9999814D27F5475300780D31 /* AccountModel.swift */; };
@@ -56,6 +58,8 @@
 		990BDDD627F67213002DA7B6 /* Data.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Data.docc; sourceTree = "<group>"; };
 		990BDDDC27F67213002DA7B6 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990BDDE127F67213002DA7B6 /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
+		994201B227F90F6900DBF342 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		994201B727F9115100DBF342 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		9999812827F5383700780D31 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9999812B27F5383700780D31 /* Domain.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Domain.docc; sourceTree = "<group>"; };
 		9999814B27F5458E00780D31 /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
@@ -117,6 +121,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		994201B127F90F5500DBF342 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				994201B227F90F6900DBF342 /* DomainError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 		9999810D27F5299400780D31 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +153,7 @@
 		9999812927F5383700780D31 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				994201B127F90F5500DBF342 /* Errors */,
 				99C66F2127F90AD400A637B2 /* UseCases */,
 				99C66F1D27F90A5200A637B2 /* Models */,
 				9999812B27F5383700780D31 /* Domain.docc */,
@@ -169,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				99C66F1A27F90A0F00A637B2 /* HttpPostClient.swift */,
+				994201B727F9115100DBF342 /* HttpError.swift */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -335,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994201B827F9115100DBF342 /* HttpError.swift in Sources */,
 				990BDDD727F67213002DA7B6 /* Data.docc in Sources */,
 				99C66F1B27F90A0F00A637B2 /* HttpPostClient.swift in Sources */,
 				99C66F1627F9097B00A637B2 /* RemoteAddAccount.swift in Sources */,
@@ -353,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994201B327F90F6900DBF342 /* DomainError.swift in Sources */,
 				9999812C27F5383700780D31 /* Domain.docc in Sources */,
 				9999814E27F5475300780D31 /* AccountModel.swift in Sources */,
 				9999814C27F5458E00780D31 /* AddAccount.swift in Sources */,
